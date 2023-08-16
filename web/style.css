@@ -5,8 +5,13 @@
 }
 
 /* menu */
-
+.header{
+    background: #FFF8F3;
+    background-image: url(images/header_bg.png),url(images/developer.png);
+    background-position: ;
+}
 nav {
+
     display: flex;
     justify-content: space-between;
     margin: 30px 150px;
@@ -118,7 +123,7 @@ section {
 }
 
 .img-section {
-    
+
 }
 
 .img-section img {
