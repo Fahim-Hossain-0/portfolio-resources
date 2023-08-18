@@ -6,7 +6,7 @@
 
 /* menu */
 .header{
-    background: #FFF8F3;
+    background-color: #FFF8F3;
     background-image: url(images/header_bg.png),url(images/developer.png);
     background-position: bottom right, left;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ section {
     font-weight: 700;
 }
 
-.text-section p {
+.banner-text {
     color: #757575;
     font-size: 18px;
     line-height: 30px
@@ -132,3 +132,56 @@ section {
 }
 
 /* banner */
+
+/* description section  */
+.description-section{
+    margin-bottom: 80px;
+
+}
+.wrapper{
+    /* display: flex; */
+    border-radius: 10px;
+    background: #FFF8F3;    
+    width: 75%;
+    /* height: 550px; */
+    margin: 0 auto;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.about-section{
+   /* display: flex;     */
+    /* align-items: center; */
+    /* justify-content: center; */
+} 
+.heading-info{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.text-info{
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.info{
+    margin: 0 25px;
+}
+.details{
+    color: #474747;
+    font-weight: 400;
+    font-size:20px;
+}
+.name{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* description section  */
