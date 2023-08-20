@@ -120,11 +120,13 @@
 .description-section {
     margin-top: 180px;
 }
-.wrapper {
-    border-radius: 10px;
+.description-bg{
     background: #FFF8F3;
-    width: 80%;
+    border-radius: 10px;
     padding: 100px 0;
+}
+.wrapper {
+    width: 80%;
     margin: 0 auto;
 }
 .about-section {
@@ -164,10 +166,10 @@
 .Sceond-description-section {
     margin-top: 180px;
 }
-.sceond-wrapper {
+/* .sceond-wrapper {
     width: 80%;
     margin: 0 auto;
-}
+} */
 /* sceond-description-section */
 /* skill section */
 .skill{
@@ -252,3 +254,11 @@ hr{
     margin: 30px 0;
 }
 /* resume section */
+/* cv button */
+.cv-btn{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 70px;
+}
+/* cv button */
