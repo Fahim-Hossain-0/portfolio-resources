@@ -146,7 +146,8 @@
     margin-top: 30px;
 }
 .info {
-    margin: 0 25px;
+    margin: 0 50px;
+    /* padding: 0 50px; */
 }
 .details {
     color: #474747;
@@ -199,5 +200,55 @@
 }   
 /* skill section */
 /* resume section */
+.resume{
+    margin-top: 100px;
+    display: flex;
+    gap: 70px;
 
+}
+.resume-container{
+}
+.resume-title{
+
+}
+.resume-heading{
+    margin-bottom: 30px;
+    color:  #474747;
+
+font-size: 30px;
+
+font-weight: 700;
+
+}
+.resume-item{
+
+}
+.resume-info{
+    color: #474747;
+    
+    font-size: 25px;
+   
+    font-weight: 700;
+    
+}
+
+.item-description{
+    margin-top: 10px;
+    margin-bottom: 20px;
+font-size: 20px;
+font-weight: 600;
+color: #757575;
+}
+.resume-text{
+    /* margin-bottom: 30px; */
+    color:#757575;
+
+font-size: 16px;
+
+
+line-height: 28px;
+}
+hr{
+    margin: 30px 0;
+}
 /* resume section */
