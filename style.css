@@ -263,3 +263,73 @@ hr{
     margin-top: 70px;
 }
 /* cv button */
+/* footer */
+footer{
+    margin-top: 180px;
+    padding-top: 130px;
+    padding-bottom: 140px;
+    background: #FFF8F3;
+    
+}
+.footer-wrapper{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* width: 70%; */
+    gap: 300px;
+}
+.footer-left {
+
+}
+.footer-text{
+    margin-bottom: 20px;
+    color: #181818;
+    
+    font-size: 35px;
+    
+    font-weight: 700;
+}
+.footer-left p{
+    color: #474747;
+
+font-size: 16px;
+
+
+line-height: 28px;
+}
+.footer-left a{
+    text-decoration: none;
+}
+.footer-left img{
+    margin-top: 30px;
+}
+.footer-right{
+   
+
+}
+/* form */
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+.form input[type=name],input[type=email]{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 0 32px;
+}
+textarea{
+    padding: 18px 32px;
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    /* padding: 0 32px; */
+}
+input{
+    height: 65px;
+}
+
+/* form */
+
+/* footer */
