@@ -318,16 +318,20 @@ line-height: 28px;
     border: 0;
     width: 100%;
     padding: 0 32px;
+    color: #757575;
 }
+
 textarea{
     padding: 18px 32px;
     margin-bottom: 24px;
     border: 0;
     width: 100%;
+    color: #474747;
     /* padding: 0 32px; */
 }
 input{
     height: 65px;
+    /* color: #757575; */
 }
 
 /* form */
