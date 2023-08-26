@@ -1,12 +1,67 @@
  /* Extra small devices (portrait phones, less than 576px) */
  @media (max-width: 575.98px) {
-    /* skill section */
-     .container{
-        flex-direction: column;
-    }
-    /* skill section */
+   /* description section */
+   .content, .container{
+      flex-direction: column;
+      gap: 30px;
+      text-align: center;
+   }
+   /* .about-section{
+      width: 78%;
+   } */
+   .description-bg {
+      
+      padding: 60px 20px;
+  }
+   /* description section */
+   /* common */
+   .heading-info{
+      font-size: 32px;
+   }
+   /* common */
 
+ 
+ /* resume */
+ .resume {
+   text-align: center;
+   flex-direction: column;
+}
+.resume-heading {
+  
+   font-size: 28px;
+ 
+}
+.resume-info {
+   
+   font-size: 22px;
+   
+}
+.item-description {
+   
+   font-size: 17px;
+}
+
+ /* resume */
+.cv-btn{
+   margin-top: 30px;
+}
+.btn-one {  
+      padding: 13px 22px;   
+      font-size: 15px;
+ 
  }
+ /* footer */
+ .footer{
+   flex-direction: column;
+ }
+ .form input[type="name"], input[type="email"] , textarea {
+  
+   width:85%;
+   
+}
+
+ /* footer */
+}
  
  /* Small devices (landscape phones, 576px and up) */
  @media (min-width: 576px) and (max-width: 767.98px) {

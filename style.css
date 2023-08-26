@@ -4,6 +4,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+
 /* menu */
 .header {
     background: #FFF8F3;
@@ -138,6 +139,7 @@
 
 .description {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 80%;
