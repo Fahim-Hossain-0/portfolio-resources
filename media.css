@@ -53,11 +53,21 @@
  /* footer */
  .footer{
    flex-direction: column;
+   gap: 55px;
  }
  .form input[type="name"], input[type="email"] , textarea {
   
    width:85%;
+  
+    
    
+   
+  }
+   
+
+.footer-text {
+   
+   font-size: 30px;
 }
 
  /* footer */
